@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+dataset/
+dataset_v2/
+training/
+*.pt
+*.cache
+*.mp4
+!sample_data/*.mp4
+.ipynb_checkpoints/
+.DS_Store

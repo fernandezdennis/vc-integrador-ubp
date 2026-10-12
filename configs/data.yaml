@@ -1,0 +1,13 @@
+path: /content/data/dataset_v2
+
+train: images/train
+val: images/val
+
+names:
+  0: person
+  1: automovil
+  2: utilitario
+  3: pickup
+  4: camion
+  5: motorcycle
+  6: bicycle
