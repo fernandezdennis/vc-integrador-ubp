@@ -67,11 +67,6 @@ def procesar_video(video_path, camera_id, csv_output_path):
                 continue
 
             xc, yc, bw, bh = box.xywhn[0].tolist()
-
-            print(
-                f"VERIFICANDO {camera_id} {clase_nombre} "
-                f"xc={xc:.3f} yc={yc:.3f}"
-            )
             if inside_exclusion_zone(camera_id, xc, yc):
                 print(
                     f"EXCLUIDO -> {camera_id} "

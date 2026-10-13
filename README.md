@@ -29,8 +29,8 @@ vision-computadora-integrador/
 ├── configs/
 │   └── data.yaml                  # Configuracion de clases y rutas para YOLOv8
 ├── notebooks/
-│   ├── VC_EVALUACION_INTEGRADORA_PARTE1.ipynb  # Deteccion y registro de eventos inicial
-│   └── VC_EVALUACION_INTEGRADORA_PARTE2.ipynb  # Entrenamiento, tracking y validacion dron
+│   ├── VC_EVALUACION_INTEGRADORA_PARTE1_FULL_corto.ipynb  # Deteccion y registro de eventos inicial
+│   └── VC_EVALUACION_INTEGRADORA_PARTE2_FULL.ipynb  # Entrenamiento, tracking y validacion dron
 └── scripts/
     ├── camara_rois.py             # Definicion de ROIs y mascaras urbanas
     ├── camara_rois_v2.py          # Zonas adaptadas para camaras fijas y dron
@@ -48,7 +48,10 @@ Los datasets, vídeos y modelos entrenados pueden descargarse desde:
  
 
 https://drive.google.com/file/d/1LYbi_6j_vkI3yHYAu3ZWEFRjRxhW6PRt/view?usp=sharing
-
+## Parte 1
+https://colab.research.google.com/drive/1sWyzHxq3gmZsJPW4fz7NITCTGIDnjsXY?usp=sharing
+## Parte 2
+https://colab.research.google.com/drive/1pxAG8jvM5JQSteBnxhO06joNDnpY9i13?usp=sharing
 
 ## Instalación
 
